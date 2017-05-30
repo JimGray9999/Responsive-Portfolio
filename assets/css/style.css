@@ -1,0 +1,234 @@
+body {
+	background-image: url("../images/cork-wallet.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	width: 960px;
+}
+
+.top-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ffffff;
+	height: 65px;
+}
+
+header {
+	background-color: #ffffff;
+	top: 0;
+	color: #fff;
+	height: 30px;
+	border-color: #cccccc;
+	border-width: 2px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.main {
+	background: #4aaaa5;
+	position: absolute;
+	padding: 20px;
+	height: 25px;
+	width: 90px;
+	margin-left: 100px;
+	font-weight: bold;
+}
+
+/*Navigation bar*/
+.myNav {
+	position: relative;
+	overflow: auto;
+	clear: both;
+	float: right;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	padding: 20px;
+}
+
+.myNav li {
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.myNav li:hover {
+	background-color: #4aaaa5;
+}
+
+
+.myNav a:link {
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.myNav a.active {
+	background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+/*horitzonal bar below headers*/
+hr {
+	height: 2px;
+	fill: gray;
+}
+
+.lead {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+/*contains the social media links*/
+aside {
+	margin-top: 100px;
+	margin-right: -88px;
+	margin-left: 20px;
+	padding: 20px;
+	width: 270px;
+	float: right;
+	background-color: #fff;
+	border: 1px solid gray;
+}
+
+.content{
+	width: 960px;
+}
+
+/*images and text overlay for portfolio.html*/
+
+.image-set {
+	position: relative;
+	float: left;
+}
+
+.images {
+	position: relative;
+	width: 260px;
+    height: 215px;
+    float: left;
+    padding: 10px;
+}
+
+.image-container{
+	position: relative;
+}
+
+h2 { 
+   position: relative; 
+   left: 0; 
+   bottom: 50px;
+   width: 100%; 
+   float: left;
+   z-index: 9999;
+}
+
+h2 span { 
+   color: white;
+   background-color: #4aaaa5;
+   opacity: 0.8;
+   padding-bottom: 10px;
+   margin: auto;
+}
+
+section {
+	float: left;
+	margin-top: 100px;
+	margin-left: 30px;
+	margin-right: 20px;
+	padding: 10px;
+	width: 67%;
+	background-color: #fff;
+	border: 1px solid gray;
+}
+
+/*image in index.html*/
+.floater {
+	float: left;
+	padding: 10px;
+}
+
+article {
+	width: 650px;
+	background-color: #fff;
+	border-color: gray;
+	border-width: 4px;
+	line-height: 1.25em;
+	margin-bottom: 200px;
+}
+
+.about {
+	float: left;
+}
+
+/*centering social media links*/
+.socialLinks {
+    width: 170px;
+    margin: auto;
+} 
+
+/*setting background when hovering over social media link*/
+a img:hover{
+	background-color: #4aaaa5;
+}
+
+/*footer for each page, always on top*/
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	overflow: auto;
+	padding: 50px;
+	clear: both;
+	border-top: 6px solid #4aaaa5;
+	background: #666666;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+}
+
+.clearfix::after {
+	display: block;
+	clear: both;
+}
+
+#messageBox {
+	width: 300px;
+	height: 300px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+#submitButton {
+   color: white;
+   background-color: #4aaaa5;
+   padding: 10px;
+}
+
+/*setting form placeholder text*/
+form input {
+	font: 16px solid gray;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	.top-container {
+		width: 100%;
+	}
+
+	section {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+}
