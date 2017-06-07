@@ -244,10 +244,33 @@ form input {
 		margin-right: 0px;
 		margin-top: 20px;
 	}
+
+	.socialLinks a, .row-right .lead {
+		float: left;
+	}
+
+	.socialLinks {
+		float: left;
+		margin: left;
+	}
 }
 
 @media screen and (max-width: 640px) {
 	section {
 		width: 95%;
+		padding-top: 20px;
+	}
+
+	.main {
+		margin: auto;
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.myNav {
+		margin-top: 65px;
+		width: 100%;
+		text-align: center;
 	}
 }
